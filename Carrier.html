@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Class-Room</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Header Start -->
+      <div class="container-fluid bg-light px-0">
+        <div class="row gx-0">
+          <div class="col-lg-12">
+            <nav
+              class="navbar navbar-expand-lg bg-light navbar-dark p-3 p-lg-0 fixed-top"
+            >
+              <a href="index.html" class="navbar-brand px-4">
+                <img src="img/logo.png" alt="logo" srcset="" width="205px" />
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler bg-dark"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav mx-auto py-0">
+                  <a href="index.html" class="nav-item nav-link">Home</a>
+                  <a href="about.html" class="nav-item nav-link">About</a>
+                  <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                  <li class="nav-item dropdown dropdown-hover">
+                    <a
+                      href="#"
+                      class="nav-link dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      id="navbarDropdown"
+                      role="button"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Services
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div
+                      class="dropdown-menu mt-0"
+                      aria-labelledby=" dropdownMenuButton"
+                    >
+                      <div class="container nav-multi-services">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <h6 class="mx-3">Creative Activities</h6>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Learning & Development</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Human Resources Consulting</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Search – Staffing</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Assignments</small>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <h6 class="mx-3">Creative Activities</h6>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Learning & Development</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Human Resources Consulting</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Search – Staffing</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Assignments</small>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <h6 class="mx-3">Creative Activities</h6>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Learning & Development</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Human Resources Consulting</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Search – Staffing</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Assignments</small>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <h6 class="mx-3">Creative Activities</h6>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Learning & Development</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Human Resources Consulting</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Search – Staffing</small>
+                              </a>
+                              <a
+                                href="sub-services.html"
+                                class="list-group-item list-group-item-action"
+                              >
+                                <small>Assignments</small>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <a href="Carrier.html" class="nav-item nav-link active"
+                    >Carrier
+                  </a>
+                  <a href="blog.html" class="nav-item nav-link">Blog </a>
+
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a
+                  href="login.html"
+                  class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block"
+                  >Login<i class="fa fa-arrow-right ms-3"></i
+                ></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Header End -->
+
+      <!-- Page Header Start -->
+      <div
+        class="container-fluid page-header mb-5 py-5 service-breadcum-section"
+      >
+        <div class="container-fluid page-header-inner py-5">
+          <div class="row">
+            <div
+              class="col-md-6 col-12 d-flex align-items-start flex-column mt-5"
+            >
+              <h3 class="text-dark mb-3 animated slideInDown">
+                The Mentoria Solution <br />
+                <span class="text-primary">For Classes 8-9</span>
+              </h3>
+              <p>
+                Stay connected with your parents from sharing a child’s first
+                steps, to sending daily reports, to letting Miss Kiah’s class
+                know to pack snow pants on Friday.
+              </p>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center text-uppercase">
+                  <li class="breadcrumb-item">
+                    <a href="#" class="text-dark">Home</a>
+                  </li>
+
+                  <li class="breadcrumb-item text-primary" aria-current="page">
+                    Carrier
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Page Header End -->
+
+      <!-- career Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">
+              Career
+            </h6>
+            <h1 class="mb-5">
+              Fill The
+              <span class="text-primary text-uppercase"> Form</span>
+            </h1>
+          </div>
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <div class="row g-3">
+                <div class="col-6 text-end">
+                  <img
+                    class="img-fluid rounded w-75 wow zoomIn"
+                    data-wow-delay="0.1s"
+                    src="img/hero-1.png"
+                    style="margin-top: 25%"
+                  />
+                </div>
+                <div class="col-6 text-start">
+                  <img
+                    class="img-fluid rounded w-100 wow zoomIn"
+                    data-wow-delay="0.3s"
+                    src="img/hero-2.png"
+                  />
+                </div>
+                <div class="col-6 text-end">
+                  <img
+                    class="img-fluid rounded w-50 wow zoomIn"
+                    data-wow-delay="0.5s"
+                    src="img/hero-3.png"
+                  />
+                </div>
+                <div class="col-6 text-start">
+                  <img
+                    class="img-fluid rounded w-75 wow zoomIn"
+                    data-wow-delay="0.7s"
+                    src="img/hero-4.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="wow fadeInUp" data-wow-delay="0.2s">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name"
+                        />
+                        <label for="name">Your First Name</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name"
+                        />
+                        <label for="name">Your Last Name</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name"
+                        />
+                        <label for="name">Your Phone</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your Email"
+                        />
+                        <label for="email">Your Email</label>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <select class="form-select" id="select3">
+                          <option value="1">Service 1</option>
+                          <option value="2">Service 2</option>
+                          <option value="3">Service 3</option>
+                        </select>
+                        <label for="select3">Select A Service</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea
+                          class="form-control"
+                          placeholder="Special Request"
+                          id="message"
+                          style="height: 100px"
+                        ></textarea>
+                        <label for="message">Special Request</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary w-100 py-3" type="submit">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- career End -->
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
