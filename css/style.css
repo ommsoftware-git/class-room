@@ -4,7 +4,9 @@
   --light: #f1f8ff;
   --dark: #0f172b;
 }
-
+body::-webkit-scrollbar {
+  width: 0px;
+}
 .fw-medium {
   font-weight: 500 !important;
 }
@@ -595,8 +597,8 @@
   position: relative;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
-  height: 400px;
-  overflow-y: scroll;
+  height: 500px;
+  /* overflow-y: scroll; */
 }
 .single-blog::-webkit-scrollbar {
   width: 0;
